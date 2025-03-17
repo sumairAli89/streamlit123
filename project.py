@@ -14,6 +14,7 @@ menu = {
     "🥐 Croissant": 250,
     "🍩 Donut": 180,
     "🍰 Cake": 300
+    "🍕 Piza": 2000
 }
 
 # Order selection
@@ -40,4 +41,3 @@ if order:
         st.success("Your order has been placed successfully! 🎉")
 else:
     st.info("Please select items from the menu to place an order.")
-

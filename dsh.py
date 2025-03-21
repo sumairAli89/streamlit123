@@ -42,6 +42,6 @@ if uploaded_file is not None:
     st.write("### Plotly Pie Chart")
     fig = px.pie(df, names=column, title=f"Distribution of {column}")
     st.plotly_chart(fig)
-    if __name__ == "__main__":
+if __name__ == "__main__":
          main()
 

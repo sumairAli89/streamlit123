@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IT Knowledge Hub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-900 text-white p-6 shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">IT Knowledge Hub</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#topics" class="hover:underline">Topics</a>
+        <a href="#courses" class="hover:underline">Courses</a>
+        <a href="#technologies" class="hover:underline">Technologies</a>
+        <a href="#projects" class="hover:underline">Projects</a>
+        <a href="#careers" class="hover:underline">Careers</a>
+        <a href="#gallery" class="hover:underline">Gallery</a>
+        <a href="#resources" class="hover:underline">Resources</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<section id="home" class="relative h-screen flex items-center justify-center text-white">
+  <img src="https://assets.robogarden.cn/robogarden-cdn/robogarden-new/Articles/upload/blogs/lg-programming-languages-evolution.jpg" 
+       class="absolute inset-0 w-full h-full object-cover opacity-70" 
+       alt="Coding Background" />
+
+  <div class="absolute inset-0 bg-gradient-to-br from-black via-transparent to-black opacity-60"></div>
+
+  <!-- ✅ Text content now inside the section and centered -->
+  <div class="relative z-10 text-center px-6 max-w-3xl">
+    <h1 class="text-5xl font-extrabold drop-shadow-md mb-6 leading-tight animate-pulse">
+      Empower Your Future with <span class="text-blue-400">IT Knowledge</span>
+    </h1>
+    <p class="text-xl text-gray-200 backdrop-blur-sm px-4 py-2 rounded-md">
+      Learn programming, build apps, and shape tomorrow's technology with us.
+    </p>
+    <div class="flex justify-center mt-6 space-x-4">
+      <a href="#courses" class="bg-blue-600 hover:bg-blue-800 px-6 py-3 rounded-full text-white font-semibold transition shadow-lg">
+        Explore Courses
+      </a>
+      <a href="#contact" class="bg-white hover:bg-gray-200 px-6 py-3 rounded-full text-blue-700 font-semibold transition shadow-lg">
+        Contact Us
+      </a>
+    </div>
+  </div>
+</section>
+
+
+  <section id="courses" class="bg-gray-50 py-16">
+  <div class="max-w-6xl mx-auto px-6">
+    <h2 class="text-4xl font-bold text-center text-gray-800 mb-4">Our Courses</h2>
+    <p class="text-center text-gray-600 mb-12">Choose from a variety of programs to kickstart your tech journey!</p>
+
+    <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+      <!-- Course Card 1 -->
+      <div class="bg-white shadow-xl rounded-2xl p-6 hover:scale-105 transition duration-300">
+        <img src="https://img.icons8.com/color/96/html-5.png" class="w-16 h-16 mb-4" alt="HTML">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Web Development</h3>
+        <p class="text-gray-600 mb-4">Learn HTML, CSS, JavaScript, and React to build modern websites.</p>
+        <a href="#" class="text-blue-600 font-medium hover:underline">Explore Course →</a>
+      </div>
+
+      <!-- Course Card 2 -->
+      <div class="bg-white shadow-xl rounded-2xl p-6 hover:scale-105 transition duration-300">
+        <img src="https://img.icons8.com/color/96/python.png" class="w-16 h-16 mb-4" alt="Python">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Python Programming</h3>
+        <p class="text-gray-600 mb-4">Master Python for data analysis, automation, and web development.</p>
+        <a href="#" class="text-blue-600 font-medium hover:underline">Explore Course →</a>
+      </div>
+
+      <!-- Course Card 3 -->
+      <div class="bg-white shadow-xl rounded-2xl p-6 hover:scale-105 transition duration-300">
+        <img src="https://img.icons8.com/color/96/artificial-intelligence.png" class="w-16 h-16 mb-4" alt="AI">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">AI & Machine Learning</h3>
+        <p class="text-gray-600 mb-4">Dive into artificial intelligence, machine learning, and neural networks.</p>
+        <a href="#" class="text-blue-600 font-medium hover:underline">Explore Course →</a>
+      </div>
+
+      <!-- Course Card 4 -->
+      <div class="bg-white shadow-xl rounded-2xl p-6 hover:scale-105 transition duration-300">
+        <img src="https://img.icons8.com/color/96/java-coffee-cup-logo.png" class="w-16 h-16 mb-4" alt="Java">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Java Programming</h3>
+        <p class="text-gray-600 mb-4">Object-oriented programming and backend development using Java.</p>
+        <a href="#" class="text-blue-600 font-medium hover:underline">Explore Course →</a>
+      </div>
+
+      <!-- Course Card 5 -->
+      <div class="bg-white shadow-xl rounded-2xl p-6 hover:scale-105 transition duration-300">
+        <img src="https://img.icons8.com/color/96/php.png" class="w-16 h-16 mb-4" alt="PHP">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">PHP & MySQL</h3>
+        <p class="text-gray-600 mb-4">Build dynamic websites and manage databases using PHP and MySQL.</p>
+        <a href="#" class="text-blue-600 font-medium hover:underline">Explore Course →</a>
+      </div>
+
+      <!-- Course Card 6 -->
+      <div class="bg-white shadow-xl rounded-2xl p-6 hover:scale-105 transition duration-300">
+        <img src="https://img.icons8.com/color/96/c-programming.png" class="w-16 h-16 mb-4" alt="C++">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">C/C++ Programming</h3>
+        <p class="text-gray-600 mb-4">Get strong fundamentals in logic building and systems programming.</p>
+        <a href="#" class="text-blue-600 font-medium hover:underline">Explore Course →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Technologies Section -->
+  <section id="technologies" class="py-20 bg-white px-6">
+    <div class="text-center mb-12">
+      <h3 class="text-3xl font-semibold">Technologies We Teach</h3>
+    </div>
+    <div class="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
+      <span class="bg-blue-100 px-4 py-2 rounded-full">HTML</span>
+      <span class="bg-green-100 px-4 py-2 rounded-full">CSS</span>
+      <span class="bg-yellow-100 px-4 py-2 rounded-full">JavaScript</span>
+      <span class="bg-purple-100 px-4 py-2 rounded-full">Python</span>
+      <span class="bg-red-100 px-4 py-2 rounded-full">React</span>
+      <span class="bg-indigo-100 px-4 py-2 rounded-full">Node.js</span>
+      <span class="bg-pink-100 px-4 py-2 rounded-full">SQL</span>
+      <span class="bg-teal-100 px-4 py-2 rounded-full">MongoDB</span>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="py-20 bg-gray-50 px-6">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-bold text-blue-900">🔥 Student Projects</h3>
+    <p class="text-gray-600 max-w-2xl mx-auto mt-2"> Student IT projects!</p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    
+    <!-- Project 1: Portfolio Website -->
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+      <img src="https://cdn.pixabay.com/photo/2015/01/08/18/25/startup-593327_1280.jpg"
+           alt="Portfolio Website" class="w-full h-48 object-cover">
+      <div class="p-5">
+        <h3 class="text-xl font-semibold text-gray-800">💼 Portfolio Website</h3>
+        <p class="text-gray-600 mt-2">Personal branding ke liye banaya gaya responsive portfolio using HTML, CSS & JS.</p>
+        <span class="text-sm text-white bg-blue-600 px-3 py-1 rounded-full inline-block mt-3">#Frontend</span>
+      </div>
+    </div>
+
+    <!-- Project 2: E-Commerce App -->
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+      <img src="https://wpdean.com/wp-content/uploads/2025/06/e-commerce-website-template-freebie.jpg"
+           alt="E-Commerce App" class="w-full h-48 object-cover">
+      <div class="p-5">
+        <h3 class="text-xl font-semibold text-gray-800">🛍 E-Commerce App</h3>
+        <p class="text-gray-600 mt-2">React aur Firebase ka use kar ke banaya gaya real-time shopping platform.</p>
+        <span class="text-sm text-white bg-green-600 px-3 py-1 rounded-full inline-block mt-3">#ReactJS</span>
+      </div>
+    </div>
+
+    <!-- Project 3: AI Chatbot -->
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition duration-300">
+      <img src="https://www.artificialintelligencezone.com/thumbs/large/f/8/6/f86453e375581dda07a93e7ff8d92a4ce5468e1f.jpg"
+           alt="AI Chatbot" class="w-full h-48 object-cover">
+      <div class="p-5">
+        <h3 class="text-xl font-semibold text-gray-800">🤖 AI Chatbot</h3>
+        <p class="text-gray-600 mt-2">Machine Learning models ka use kar ke smart chatbot design kiya gaya.</p>
+        <span class="text-sm text-white bg-purple-600 px-3 py-1 rounded-full inline-block mt-3">#Python #AI</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <section id="careers" class="py-20 bg-white px-6">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-purple-600">💼 Careers in IT</h3>
+    <p class="text-gray-600 max-w-3xl mx-auto mt-4 text-lg">
+      Information Technology mein kai exciting aur high-paying careers hain. Har skill ke liye kuch na kuch available hai!
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    
+    <!-- Career 1 -->
+    <div class="bg-gradient-to-br from-blue-100 to-blue-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h4 class="text-2xl font-bold text-blue-800 mb-2">👨‍💻 Software Engineer</h4>
+      <p class="text-gray-700">Apps aur systems banate hain using programming languages like Python, Java, etc.</p>
+    </div>
+
+    <!-- Career 2 -->
+    <div class="bg-gradient-to-br from-green-100 to-green-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h4 class="text-2xl font-bold text-green-800 mb-2">📊 Data Analyst</h4>
+      <p class="text-gray-700">Data ko analyze karke trends nikalna aur business decisions mein help karna.</p>
+    </div>
+
+    <!-- Career 3 -->
+    <div class="bg-gradient-to-br from-yellow-100 to-yellow-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h4 class="text-2xl font-bold text-yellow-800 mb-2">🔐 Cybersecurity Expert</h4>
+      <p class="text-gray-700">Systems aur networks ko hackers se protect karte hain aur security test karte hain.</p>
+    </div>
+
+    <!-- Career 4 -->
+    <div class="bg-gradient-to-br from-pink-100 to-pink-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h4 class="text-2xl font-bold text-pink-800 mb-2">🤖 AI/ML Engineer</h4>
+      <p class="text-gray-700">Artificial Intelligence models aur Machine Learning systems banate hain.</p>
+    </div>
+
+    <!-- Career 5 -->
+    <div class="bg-gradient-to-br from-indigo-100 to-indigo-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h4 class="text-2xl font-bold text-indigo-800 mb-2">🌐 Web Developer</h4>
+      <p class="text-gray-700">Modern websites aur web apps banate hain using frontend/backend technologies.</p>
+    </div>
+
+    <!-- Career 6 -->
+    <div class="bg-gradient-to-br from-teal-100 to-teal-50 p-6 rounded-2xl shadow hover:shadow-lg transition">
+      <h4 class="text-2xl font-bold text-teal-800 mb-2">🛠 DevOps Engineer</h4>
+      <p class="text-gray-700">Code ko deployment ke liye ready karte hain, automation aur infrastructure manage karte hain.</p>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="py-20 bg-gradient-to-br from-gray-100 to-white px-6" id="students-graph">
+  <div class="text-center mb-12">
+    <h3 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600">📊 Students by Course</h3>
+    <p class="text-gray-600 mt-3 text-lg">Check out how many students are enrolled in each trending IT program!</p>
+  </div>
+
+  <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl p-6">
+    <canvas id="studentsChart" class="w-full h-96"></canvas>
+  </div>
+
+  <script>
+    const ctx = document.getElementById('studentsChart').getContext('2d');
+    new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Data Science', 'Web Development', 'AI/ML', 'Cybersecurity', 'Mobile Dev', 'DevOps'],
+        datasets: [{
+          label: 'No. of Students',
+          data: [150, 130, 100, 85, 95, 70],
+          backgroundColor: [
+            '#3b82f6',
+            '#10b981',
+            '#a855f7',
+            '#f43f5e',
+            '#f59e0b',
+            '#6366f1'
+          ],
+          borderRadius: 12,
+          borderSkipped: false,
+        }]
+      },
+      options: {
+        responsive: true,
+        animation: {
+          duration: 1500,
+          easing: 'easeOutBounce'
+        },
+        plugins: {
+          legend: {
+            display: false
+          },
+          tooltip: {
+            backgroundColor: '#1f2937',
+            titleColor: '#ffffff',
+            bodyColor: '#fef9c3',
+            padding: 10
+          }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: {
+              stepSize: 20
+            }
+          }
+        }
+      }
+    });
+  </script>
+</section>
+  </section>
+  <!-- Add these sections at the bottom of your current HTML -->
+   <section class="bg-white py-12 px-4" id="gallery">
+  <div class="max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Programming Language Gallery</h2>
+    <p class="text-gray-600 mb-10">Check out logos of popular programming languages</p>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+      <!-- HTML -->
+      <div class="flex flex-col items-center space-y-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML Logo" class="w-16 h-16">
+        <span class="text-gray-700 font-semibold">HTML</span>
+      </div>
+
+      <!-- CSS -->
+      <div class="flex flex-col items-center space-y-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS Logo" class="w-16 h-16">
+        <span class="text-gray-700 font-semibold">CSS</span>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="flex flex-col items-center space-y-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS Logo" class="w-16 h-16">
+        <span class="text-gray-700 font-semibold">JavaScript</span>
+      </div>
+
+      <!-- Python -->
+      <div class="flex flex-col items-center space-y-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" class="w-16 h-16">
+        <span class="text-gray-700 font-semibold">Python</span>
+      </div>
+
+      <!-- Java -->
+      <div class="flex flex-col items-center space-y-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java Logo" class="w-16 h-16">
+        <span class="text-gray-700 font-semibold">Java</span>
+      </div>
+
+      <!-- PHP -->
+      <div class="flex flex-col items-center space-y-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP Logo" class="w-16 h-16">
+        <span class="text-gray-700 font-semibold">PHP</span>
+      </div>
+
+      <!-- C++ -->
+      <div class="flex flex-col items-center space-y-2">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++ Logo" class="w-16 h-16">
+        <span class="text-gray-700 font-semibold">C++</span>
+      </div>
+</section>
+
+   <section class="bg-gray-50 py-12" id="resources">
+  <div class="max-w-4xl mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold text-gray-800 mb-4">Useful IT Resources</h2>
+    <p class="text-gray-600 mb-8">
+      Here are some links to websites where you can continue learning:
+    </p>
+
+    <ul class="space-y-4 text-left max-w-md mx-auto">
+      <li>
+        <a href="https://www.w3schools.com" target="_blank" class="text-blue-600 hover:text-blue-800 underline">
+          W3Schools – Learn Web Development
+        </a>
+      </li>
+      <li>
+        <a href="https://www.freecodecamp.org" target="_blank" class="text-blue-600 hover:text-blue-800 underline">
+          freeCodeCamp – Learn to code for free
+        </a>
+      </li>
+      <li>
+        <a href="https://www.geeksforgeeks.org" target="_blank" class="text-blue-600 hover:text-blue-800 underline">
+          GeeksforGeeks – Coding and Interview Prep
+        </a>
+      </li>
+      <li>
+        <a href="https://developer.mozilla.org" target="_blank" class="text-blue-600 hover:text-blue-800 underline">
+          MDN Web Docs – Developer Documentation
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+<!-- About Section -->
+<section id="about" class="bg-gradient-to-br from-gray-50 to-white py-20 px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+    <!-- Text Content -->
+    <div>
+      <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-purple-700 mb-6">
+        🌐 About IT Knowledge Hub
+      </h2>
+      <p class="text-gray-700 text-lg leading-relaxed mb-4">
+        <strong>IT Knowledge Hub</strong> is your one-stop destination for learning and growing in the tech world. Whether you’re a beginner or an experienced tech enthusiast, we provide easy-to-understand and updated content to boost your IT journey.
+      </p>
+      <ul class="space-y-2 text-gray-600 text-base list-disc pl-5">
+        <li> Expert-designed IT courses</li>
+        <li> Real-world projects & career support</li>
+        <li> Interactive tools and visual learning</li>
+        <li> Topics from Web Dev to AI & Cybersecurity</li>
+        <li> Community-driven and student-focused</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Contact Us Section -->
+<section id="contact" class="bg-gradient-to-br from-white to-gray-100 py-20 px-6">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    
+    <!-- Contact Info -->
+    <div>
+      <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">
+        📞 Contact Us
+      </h2>
+      <p class="text-gray-600 text-lg mb-4">We’d love to hear from you! Whether you have a question about courses, pricing, or anything else — our team is ready to help.</p>
+      
+      <div class="space-y-4 text-gray-700">
+        <p><strong>📍 Address:</strong> IT HUB EiD Ghah road Sukkur Pakistan</p>
+        <p><strong>📞 Phone:</strong> +92-300-1234567</p>
+        <p><strong>📧 Email:</strong> amnahusasain44@gmail.com/p>
+      </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="bg-white p-8 rounded-2xl shadow-xl">
+      <form action="#" method="POST" class="space-y-6">
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Your Name</label>
+          <input type="text" name="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Email</label>
+          <input type="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+          <textarea name="message" rows="4" required class="w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:ring-2 focus:ring-blue-500 focus:outline-none"></textarea>
+        </div>
+        <div>
+          <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-semibold transition duration-300">
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+    
+  </div>
+</section>
+
+
+<!-- Optional Footer -->
+<footer class="bg-blue-900 text-white text-center py-4 mt-10">
+  <p>&copy; 2025 IT Knowledge Hub. All rights reserved.</p>
+</footer>
+
+  
+
+  <!-- Rest of content (Gallery, Resources, Contact, Footer) remains the same -->
+</body>
+
+</html>
